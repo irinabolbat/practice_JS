@@ -1,0 +1,13 @@
+let weight;
+let recommendation;
+
+if(weight < 4) {
+	recommendation = 'Пора перекусить';
+  alert(recommendation)
+} else if(weight < 5.5) {
+		recommendation = 'Вес в норме';
+    alert(recommendation);
+} else if (weight > 5.5) {
+	recommendation = 'Пора на тренировку';
+  alert(recommendation);
+};
