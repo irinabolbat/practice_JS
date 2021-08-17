@@ -1,13 +1,13 @@
-let weight;
+let weight = 10;
 let recommendation;
 
 if(weight < 4) {
-	recommendation = 'Пора перекусить';
-  alert(recommendation)
-} else if(weight < 5.5) {
-		recommendation = 'Вес в норме';
-    alert(recommendation);
+  recommendation = 'Пора перекусить';
+  alert(recommendation.toString())
+} else if(weight <= 5.5) {
+    recommendation = 'Вес в норме';
+    alert(recommendation.toString());
 } else if (weight > 5.5) {
-	recommendation = 'Пора на тренировку';
-  alert(recommendation);
+  recommendation = 'Пора на тренировку';
+  alert(recommendation.toString());
 };
