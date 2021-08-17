@@ -1,1 +1,6 @@
 let arr = [10, 20, 30, 50, 235, 3000];
+
+const first = '125';
+const startWithFirst = arr.filter(n => first.includes(`${n}`[0]));
+
+console.log(startWithFirst);
