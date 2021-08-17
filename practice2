@@ -1,0 +1,4 @@
+let str = 'HTML';
+let result = str.toLowerCase();
+
+console.log(result);
