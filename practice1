@@ -1,0 +1,5 @@
+let snakeCase = 1,
+	  pascalCase = 2;
+   
+alert(snakeCase);
+console.log(pascalCase);
