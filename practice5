@@ -1,0 +1,10 @@
+let num1 = +prompt('Number 1 = ');
+let num2 = +prompt('Number 2 = ');
+
+if(num1 > num2) {
+	alert(num1 + num2);
+} else if(num1 < num2) {
+	alert(num1 * num2);
+}else {
+	alert('числа одинаковые');
+};
