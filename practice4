@@ -1,3 +1,4 @@
+//1
 let arr = ['Саша', 'Петя', 'Оксана'];
 
 arr[0] = 'Оксана';
@@ -5,3 +6,14 @@ arr[1] = 'Олег';
 arr[2] = 'Саша';
 
 console.log(arr);
+
+//2
+let arr = ['Саша', 'Петя', 'Оксана'];
+let arr2 = arr.slice();
+
+arr2[0] = 'Оксана';
+arr2[1] = 'Олег';
+arr2[2] = 'Cаша';
+
+console.log(arr);
+console.log(arr2);
