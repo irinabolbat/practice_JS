@@ -1,1 +1,19 @@
+let numbers1 = [3, 2, 5]; 
+let numbers2 =[1, 4, 4];
+let numbers3 = [9, 7, 2]; 
+let numbers4 =[5, 2, 2];
 
+
+function countArr(arr) {
+    let x = 1;
+    for(let i=0; i < arr.length; i++) {
+        x = x * arr[i];
+    }
+    return x;
+}
+
+let y = countArr(numbers1);
+let a = countArr(numbers2);
+let result = y - a;
+
+console.log(result);
