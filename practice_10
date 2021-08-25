@@ -1,1 +1,18 @@
+let names1 = ['Никита', 'Саша', 'Анастасия', 'Дима', 'Саныч', 'Ольга', ];
+let names2 = ['Алексей', 'Семён', 'Василиса', 'Дима', 'Максим', 'Ольга', ];
+let names3 = ['Алишер', 'Ольга', ];
 
+function deleteNames (names) {
+    const unwantedNames = ['Дима', 'Саша', 'Ольга', 'Никита'];
+    for(let i=0; i < names.length; i++) {
+        for(let x=0; x < unwantedNames.length; x++) {
+            if(names[i] === unwantedNames[x]) {
+                names.splice(i, 1);
+                i--;
+            }
+        }
+    }
+    return names;
+}
+
+console.log(deleteNames(names1));
