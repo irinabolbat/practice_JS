@@ -1,1 +1,7 @@
+let a = parseInt("1", 16); //1
+let b = parseInt("a", 16); //10
+let c = parseInt("10", 16); //16
+let d = parseInt("FF", 16); //255
+let e = parseInt("-C", 16); //-12
 
+console.log(e);
