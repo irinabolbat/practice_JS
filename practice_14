@@ -1,1 +1,23 @@
+let a = "Hi!";
+let b ="Hi!";
+let c ="Hi!!!";
+let d ="Hi!!!";
+let e ="!Hi";
+let f ="!Hi!";
+let g ="!Hi!";
+let h ="!!!Hi !!hi!!! !hi";
+let i ="!!!Hi !!hi!!! !hi";
+let j ="!!!Hi !!hi!!! !hi";
+let k ="!!!Hi !!hi!!! !hi";
 
+
+function removeEl (s, n){
+    for (let i = 0; i < n; i ++){
+        s = s.replace('!', '');
+    }
+    return s;
+}
+
+let result = removeEl(k, 4);
+
+console.log(result);
