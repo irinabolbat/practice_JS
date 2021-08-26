@@ -1,1 +1,15 @@
+function divisibleByThree (num) {
+    let figures = '' + num;
+    let sum = 0;
+    for(let i=0; i < figures.length; i++) {
+        sum +=figures[i]; 
+    }
+    let result = sum % 3;  
+    if(result == 0){
+        console.log('true');
+    }else{
+        console.log('false');
+    }
+}
 
+divisibleByThree(122);
