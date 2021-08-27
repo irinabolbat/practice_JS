@@ -1,1 +1,14 @@
+let arr1 = ['kevin', 'has','no','space'];
+let arr2 = ['this','cheese','has','no','holes'];
 
+function createWords(arr) {
+    let newArr = [];
+    let x = ' ';
+    for(let i=0; i < arr.length; i++){
+        x += arr[i];
+        newArr.push(x);
+    }
+    return newArr;
+}
+
+console.log(createWords(arr2));
