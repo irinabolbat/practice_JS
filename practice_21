@@ -1,1 +1,21 @@
+let str1 = 'abc';
+let str2 = 'aaabcccbaaa';
+let str3 = 'ccccc';
+let str4 = 'acb';
+let str5 = 'aabacbaa';
 
+function changeLet(str) {
+    let x = ' ';
+    for(let i=0; i < str.length; i++){
+        if(str[i] == 'a'){
+            x += 'b';
+        } else if(str[i] == 'b'){
+            x += 'a';
+        } else {
+            x += str[i];
+        }
+    }
+    return x;
+}
+
+console.log(changeLet(str4));
